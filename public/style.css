@@ -1,0 +1,111 @@
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #5ca9d3;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Heading */
+h3 {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/* New Chat Button */
+.middle button {
+    margin: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.middle button:hover {
+    background-color: #084cdf;
+    transform: scale(1.05);
+}
+
+/* Chats Container */
+.chats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Single Chat Box */
+.chat {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    width: 240px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.chat:hover {
+    transform: translateY(-5px);
+}
+
+/* Message Bubble */
+.msg {
+    background: #4f46e5;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 15px 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Buttons Inside Chat Box */
+.chat button {
+    margin: 5px 5px 0 0;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    background: #10b981;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.chat button:hover {
+    background-color: #059669;
+    transform: scale(1.05);
+}
+
+/* Inline Forms for Buttons */
+.chat form {
+    display: inline;
+}
+
+/* From & To Text Styling */
+.chat p {
+    font-size: 14px;
+    color: #0b0b02;
+}
+
+.chat hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 10px 0;
+}
